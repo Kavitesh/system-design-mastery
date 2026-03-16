@@ -2,16 +2,10 @@
 
 > A comprehensive, visual, and hands-on guide to mastering system design - from fundamentals to real-world architectures.
 
-```
-  ┌─────────────────────────────────────────────────────────┐
-  │                  SYSTEM DESIGN MASTERY                  │
-  │                                                         │
-  │   Fundamentals ──▶ Data at Scale ──▶ Reliability        │
-  │        │                                    │           │
-  │        ▼                                    ▼           │
-  │   Distributed  ──▶  Architecture  ──▶  Case Studies     │
-  │    Systems          Patterns                            │
-  └─────────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    A["<b>Part I</b><br/>Fundamentals"] --> B["<b>Part II</b><br/>Data at Scale"] --> C["<b>Part III</b><br/>Reliability"] --> D["<b>Part IV</b><br/>Distributed<br/>Systems"]
+    D --> E["<b>Part V</b><br/>Architecture"] --> F["<b>Part VI</b><br/>Security"] --> G["<b>Part VII</b><br/>Case Studies"]
 ```
 
 ## What Is System Design?
@@ -67,7 +61,7 @@ Each chapter includes:
 
 ### Part II  - Data at Scale
 
-| # | Topic |
+| # | Topic | 
 |---|-------|
 | 09 | [Data Partitioning & Sharding](09-sharding/) 
 | 10 | [Database Replication](10-replication/) 
@@ -77,7 +71,7 @@ Each chapter includes:
 
 ### Part III  - Reliability & Resilience
 
-| # | Topic |
+| # | Topic | 
 |---|-------|
 | 14 | [Fault Tolerance & High Availability](14-fault-tolerance/) 
 | 15 | [Rate Limiting & Throttling](15-rate-limiting/) 
@@ -86,7 +80,7 @@ Each chapter includes:
 
 ### Part IV  - Distributed Systems Concepts
 
-| # | Topic |
+| # | Topic | 
 |---|-------|
 | 18 | [Distributed Consensus](18-consensus/) 
 | 19 | [Distributed Transactions](19-distributed-transactions/) 
@@ -96,7 +90,7 @@ Each chapter includes:
 
 ### Part V  - Architecture Patterns
 
-| # | Topic |
+| # | Topic | 
 |---|-------|
 | 23 | [Monolith vs Microservices](23-microservices/) 
 | 24 | [Event-Driven Architecture](24-event-driven/) 
@@ -106,7 +100,7 @@ Each chapter includes:
 
 ### Part VI  - Security & Observability
 
-| # | Topic |
+| # | Topic | 
 |---|-------|
 | 28 | [Authentication & Authorization](28-auth/) 
 | 29 | [Encryption & Data Security](29-encryption/) 
@@ -178,10 +172,6 @@ system-design-mastery/
 ## Contributing
 
 Contributions are welcome! If you find errors, want to add examples, or improve diagrams  - feel free to open an issue or submit a PR.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
