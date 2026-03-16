@@ -237,24 +237,20 @@ graph TB
 
 Every system designer should know these **latency numbers**:
 
-```
-┌──────────────────────────────────────────────────────┐
-│          Latency Numbers Every Dev Should Know        │
-├──────────────────────────────────────────┬───────────┤
-│ L1 cache reference                       │     1 ns  │
-│ L2 cache reference                       │     4 ns  │
-│ Main memory (RAM) reference              │   100 ns  │
-│ SSD random read                          │   16 μs   │
-│ HDD random read                          │   2 ms    │
-│ Round trip within same datacenter        │   0.5 ms  │
-│ Round trip CA → Netherlands              │   150 ms  │
-├──────────────────────────────────────────┼───────────┤
-│ Read 1 MB sequentially from memory       │   3 μs    │
-│ Read 1 MB sequentially from SSD          │   49 μs   │
-│ Read 1 MB sequentially from HDD          │   825 μs  │
-│ Send packet CA → Netherlands → CA        │   150 ms  │
-└──────────────────────────────────────────┴───────────┘
-```
+| Operation | Latency |
+|-----------|---------|
+| L1 cache reference | 1 ns |
+| L2 cache reference | 4 ns |
+| Main memory (RAM) reference | 100 ns |
+| SSD random read | 16 μs |
+| HDD random read | 2 ms |
+| Round trip within same datacenter | 0.5 ms |
+| Round trip CA -> Netherlands | 150 ms |
+| | |
+| Read 1 MB sequentially from memory | 3 μs |
+| Read 1 MB sequentially from SSD | 49 μs |
+| Read 1 MB sequentially from HDD | 825 μs |
+| Send packet CA -> Netherlands -> CA | 150 ms |
 
 **Back-of-the-envelope estimates:**
 
