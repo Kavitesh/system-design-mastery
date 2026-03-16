@@ -67,7 +67,7 @@ Each chapter includes:
 
 ### Part II  - Data at Scale
 
-| # | Topic | Status |
+| # | Topic |
 |---|-------|--------|
 | 09 | [Data Partitioning & Sharding](09-sharding/) 
 | 10 | [Database Replication](10-replication/) 
@@ -77,7 +77,7 @@ Each chapter includes:
 
 ### Part III  - Reliability & Resilience
 
-| # | Topic | Status |
+| # | Topic |
 |---|-------|--------|
 | 14 | [Fault Tolerance & High Availability](14-fault-tolerance/) 
 | 15 | [Rate Limiting & Throttling](15-rate-limiting/) 
@@ -86,7 +86,7 @@ Each chapter includes:
 
 ### Part IV  - Distributed Systems Concepts
 
-| # | Topic | Status |
+| # | Topic |
 |---|-------|--------|
 | 18 | [Distributed Consensus](18-consensus/) 
 | 19 | [Distributed Transactions](19-distributed-transactions/) 
@@ -96,7 +96,7 @@ Each chapter includes:
 
 ### Part V  - Architecture Patterns
 
-| # | Topic | Status |
+| # | Topic |
 |---|-------|--------|
 | 23 | [Monolith vs Microservices](23-microservices/) 
 | 24 | [Event-Driven Architecture](24-event-driven/) 
@@ -106,7 +106,7 @@ Each chapter includes:
 
 ### Part VI  - Security & Observability
 
-| # | Topic | Status |
+| # | Topic |
 |---|-------|--------|
 | 28 | [Authentication & Authorization](28-auth/) 
 | 29 | [Encryption & Data Security](29-encryption/) 
@@ -114,7 +114,7 @@ Each chapter includes:
 
 ### Part VII  - Real-World System Designs
 
-| # | System | Status |
+| # | System |
 |---|--------|--------|
 | 31 | [Design a URL Shortener](31-url-shortener/) 
 | 32 | [Design a Rate Limiter](32-design-rate-limiter/) 
