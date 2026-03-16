@@ -115,7 +115,7 @@ Each chapter includes:
 ### Part VII  - Real-World System Designs
 
 | # | System |
-|---|--------|--------|
+|---|--------|
 | 31 | [Design a URL Shortener](31-url-shortener/) 
 | 32 | [Design a Rate Limiter](32-design-rate-limiter/) 
 | 33 | [Design a Chat System](33-chat-system/) 
