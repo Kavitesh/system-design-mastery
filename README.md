@@ -150,18 +150,6 @@ system-design-mastery/
 └── ... (40 chapters)
 ```
 
-## Tech Stack Used in Code Labs
-
-| Technology | Used For |
-|------------|----------|
-| Python | Algorithms, simulations, quick demos |
-| Node.js | API servers, real-time systems |
-| Docker | Containerized multi-service demos |
-| Redis | Caching, rate limiting, pub/sub examples |
-| PostgreSQL | SQL & replication demos |
-| Kafka | Message queue & streaming examples |
-| Nginx | Load balancing & proxy demos |
-
 ## Who Is This For
 
 - Engineers preparing for **system design interviews**
