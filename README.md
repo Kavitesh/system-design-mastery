@@ -68,7 +68,7 @@ Each chapter includes:
 ### Part II  - Data at Scale
 
 | # | Topic |
-|---|-------|--------|
+|---|-------|
 | 09 | [Data Partitioning & Sharding](09-sharding/) 
 | 10 | [Database Replication](10-replication/) 
 | 11 | [CAP Theorem & Consistency Models](11-cap-theorem/) 
@@ -78,7 +78,7 @@ Each chapter includes:
 ### Part III  - Reliability & Resilience
 
 | # | Topic |
-|---|-------|--------|
+|---|-------|
 | 14 | [Fault Tolerance & High Availability](14-fault-tolerance/) 
 | 15 | [Rate Limiting & Throttling](15-rate-limiting/) 
 | 16 | [Circuit Breaker & Retry Patterns](16-circuit-breaker/) 
@@ -87,7 +87,7 @@ Each chapter includes:
 ### Part IV  - Distributed Systems Concepts
 
 | # | Topic |
-|---|-------|--------|
+|---|-------|
 | 18 | [Distributed Consensus](18-consensus/) 
 | 19 | [Distributed Transactions](19-distributed-transactions/) 
 | 20 | [Consistent Hashing](20-consistent-hashing/) 
@@ -97,7 +97,7 @@ Each chapter includes:
 ### Part V  - Architecture Patterns
 
 | # | Topic |
-|---|-------|--------|
+|---|-------|
 | 23 | [Monolith vs Microservices](23-microservices/) 
 | 24 | [Event-Driven Architecture](24-event-driven/) 
 | 25 | [Serverless Architecture](25-serverless/) 
@@ -107,7 +107,7 @@ Each chapter includes:
 ### Part VI  - Security & Observability
 
 | # | Topic |
-|---|-------|--------|
+|---|-------|
 | 28 | [Authentication & Authorization](28-auth/) 
 | 29 | [Encryption & Data Security](29-encryption/) 
 | 30 | [Monitoring, Logging & Observability](30-observability/) 
